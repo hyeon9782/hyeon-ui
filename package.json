@@ -1,19 +1,27 @@
 {
   "name": "@hyeon/ui",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "A presonalised UI Library.",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "hyeon9782",
   "license": "MIT",
   "dependencies": {
+    "install": "^0.13.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^5.3.3"
   },
   "devDependencies": {
-    "@types/react": "^18.2.45"
+    "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "@rollup/plugin-typescript": "^11.1.4",
+    "@types/react": "^18.2.45",
+    "rollup": "^3.29.4",
+    "rollup-plugin-dts": "^6.0.2",
+    "rollup-plugin-postcss": "^4.0.2"
   }
 }
