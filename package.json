@@ -9,6 +9,8 @@
   "author": "hyeon9782",
   "license": "MIT",
   "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "typescript": "^5.3.3"
   },
   "devDependencies": {
