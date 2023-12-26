@@ -8,7 +8,7 @@ const Button: React.FC<ButtonProps> = ({ variant, ...props }) => {
   const colorClass = variant === "primary" ? "blue" : "red";
   return (
     <button style={{ backgroundColor: colorClass }} {...props}>
-      {text}
+      {props.children}
     </button>
   );
 };
